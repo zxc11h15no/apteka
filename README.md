@@ -1,1 +1,1 @@
-AKHMETOV R.R. APTEKA PHARMACY
+AKHMETOV R.R. - база данных Аптеки (демо экзамен)
