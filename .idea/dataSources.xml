@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="@server.redshift.amazonaws.com" uuid="156b56cc-eab3-4416-9a73-a786ab73259e">
-      <driver-ref>redshift</driver-ref>
+    <data-source source="LOCAL" name="identifier.sqlite" uuid="865285aa-e367-4a65-827c-6a0fcc507e57">
+      <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.amazon.redshift.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:redshift://server.redshift.amazonaws.com:5439</jdbc-url>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:identifier.sqlite</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Apteka" uuid="87861709-bd7d-4619-a498-7a186fc74d1e">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\JustKingYT\Documents\GitHub\demo_ex2\src\server\sql_base\Apteka.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <libraries>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.39.2/sqlite-jdbc-3.39.2.jar</url>
+        </library>
+      </libraries>
     </data-source>
   </component>
 </project>
